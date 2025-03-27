@@ -5,6 +5,8 @@ const User = require('./models/Schema');
 const cors = require('cors');
 const Todo = require('./models/TodoSchema');
 
+//this is sample branch
+
 app.use(express.json()); // Middleware to parse incoming requests
 app.use(cors()); // Middleware to allow cross-origin requests
 
